@@ -5,6 +5,7 @@ body {
     padding: 20px;
 }
 h1 {
+    display: flex; /* Para usar flexbox */
     cursor: pointer;
     background-color: #2d89ef;
     color: white;
@@ -12,7 +13,12 @@ h1 {
     border-radius: 5px;
     text-align: center;
     margin-bottom: 10px;
+    align-items: center; /* Alineación vertical */
+    justify-content: center; /* Alineación horizontal */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+    font-weight: bold;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
